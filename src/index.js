@@ -8,6 +8,8 @@ import { createStore, applyMiddleware, combineReducers } from "redux";
 import { searchRobots, requestRobots } from "./reducers";
 import { createLogger } from "redux-logger";
 import thunkMiddleware from "redux-thunk";
+// import registerServiceWorker from "'react-service-worker";
+
 import "tachyons";
 
 const logger = createLogger();
@@ -28,3 +30,4 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+// registerServiceWorker();
